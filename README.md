@@ -41,4 +41,5 @@ To find some word that can be made out of the letters in HAND:
 repeated elements, while multisets, like groups of letters within a hand, can. </p>
 
 <h3>Problem #5: Algorithm Analysis</h3>
-Characterize the time complexity of your implementation (in terms of the size of word_list a
+Characterize the time complexity of your implementation (in terms of the size of word_list and
+the number of letters in a hand) of both pick_best_word and pick_best_word_faster. 

@@ -17,6 +17,7 @@ that a player can spend to play a hand.</p>
 <p>You've spent so much time working on 6.00 that, unfortunately, you don't actually have any friends
 left to play the word game with you. So, nerd that you have become, you decide to implement support
 for computer players.</p>
+
 <h3>Problem #4: Even Faster Computer Player</h3>
 <p>Now implement a faster computer player called pick_best_word_faster(hand, rearrange_dict). It
 should be based on the following approach described below. (This is a good example of what
@@ -38,11 +39,6 @@ To find some word that can be made out of the letters in HAND:
 <p>If w in d: return d[w]</code>
 <p>N.B.: These are actually sub-multisets, not subsets. In a formal definition, sets cannot contain
 repeated elements, while multisets, like groups of letters within a hand, can. </p>
-
-<h3>Problem #4: Even Faster Computer Player</h3>
-Now implement a faster computer player called pick_best_word_faster(hand, rearrange_dict). It
-should be based on the following approach described below. (This is a good example of what
-pseudocode should look like). 
 
 <h3>Problem #5: Algorithm Analysis</h3>
 Characterize the time complexity of your implementation (in terms of the size of word_list a
